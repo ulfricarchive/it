@@ -32,5 +32,4 @@ Feature: /f accept <factionName>
 			Given a player is invited to a faction
 			When the player accepts the invitation
 			And the player is not in a faction
-			Then the player is now in the faction
-					
+			Then the player is now in the faction		
