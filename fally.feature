@@ -35,10 +35,4 @@ Feature: /f ally <factionName>
 			When the player allies another faction
 			And the faction doesnt have max allies
 			And the faction allies the players faction back
-			Then the two factions are now allied
-			
-			
-			
-		
-			
-		
+			Then the two factions are now allied	
