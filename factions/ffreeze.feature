@@ -20,3 +20,8 @@ feature: /f freeze <faction> <time>
 		When one of the player dies, the current DTR is now 1.0 is frozen for one hour
 		And the second player dies 10 minutes later
 		Then the DTR is now 0 and is frozen for 1 hour again
+
+	Scenario: a faction goes raidable
+		Given a faction has 1.0 DTR
+		When a player dies, the faction is now raidable
+		Then the faction has a 2.5 hoour DTR freeze
