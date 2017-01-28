@@ -35,4 +35,3 @@ feature: /f kick <player>
 			When the player attempts to kick a target player
 			And the target player is a member
 			Then remove the target player from the faction
-			
