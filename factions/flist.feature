@@ -26,5 +26,3 @@ Feature: /f list (page#)
 			Given there are 20 total created factions on the server
 			When a player views the second page of the faction list
 			Then the 10 factions with the least amount of players online will be listed
-			
-	
